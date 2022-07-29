@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Cormorant Infant', sans-serif;
+    color: #000000;
+    position: relative;
+}
+.text-center {
+    text-align: center;
+}
+
+.header_wrapper {
+    width: 100%;
+}
+.flex {
+    display: flex !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}

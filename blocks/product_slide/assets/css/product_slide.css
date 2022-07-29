@@ -1,0 +1,10 @@
+.product_slide {
+    padding: 15px;
+    background: #ffffff;
+}
+.owl-carousel_product_slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
