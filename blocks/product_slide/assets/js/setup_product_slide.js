@@ -6,5 +6,4 @@ $('.owl-carousel').owlCarousel({
     autoplaySpeed: 2000,
     autoplay:true,
     nav:true,
-    dot:true,
 });
