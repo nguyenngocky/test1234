@@ -3,5 +3,8 @@ $('.owl-carousel').owlCarousel({
     lazyLoad: true,
     loop: true,
     margin: 10,
+    autoplaySpeed: 2000,
+    autoplay:true,
     nav:true,
+    dot:true,
 });
