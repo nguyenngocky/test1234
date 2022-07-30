@@ -15,17 +15,18 @@
     margin-bottom: 20px;
     text-transform: uppercase;
     color: #000000;
+    font-family: 'Montserrat', serif;
 }
 .slider-top .slide-content h3 a {
     color: #000000;
 }
 
 .slider-top .slide-content .slide-desc{
-    font-size: 16px;
-    line-height: 1.5;
-    font-style: italic;
-    margin-bottom: 20px;
-    color: #352b2b;
+  font-size: 20px;
+  line-height: 1.5;
+  font-style: italic;
+  margin-bottom: 20px;
+  font-weight: 200;
 }
 .slider-top .slide-content .btn-slider {
     font-size: 14px;

@@ -1,0 +1,87 @@
+
+.banner_home_top {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.row-0 > div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.banner_home_top img {
+    width: 382px;
+    height: 382px;
+}
+
+.home-banner .home-banner__item {
+    line-height: 0; }
+    .home-banner .home-banner__item .home-banner__bg {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      width: 100%; }
+      .home-banner .home-banner__item .home-banner__bg .home-banner__content {
+        position: absolute;
+        display: block;
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        top: 10px;
+        left: 10px;
+        padding: 0;
+        background-color: #fff;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        clip-path: inset(100% 0 0 0);
+        -webkit-clip-path: inset(100% 0 0 0);
+        -webkit-transition: .5s ease-out;
+        -o-transition: .5s ease-out;
+        transition: .5s ease-out; }
+        .home-banner .home-banner__item .home-banner__bg .home-banner__content .wrapp {
+          display: flex;
+          flex-wrap: wrap;
+          height: 100%;
+          width: 100%;
+          align-items: center;
+          
+          justify-content: center; }
+          .home-banner .home-banner__item .home-banner__bg .home-banner__content .wrapp h3 {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: black;
+            font-weight: normal;
+            line-height: 1.5;
+            font-size: 20px; }
+          .home-banner .home-banner__item .home-banner__bg .home-banner__content .wrapp .desc {
+            display: inline-block;
+            width: 100%;
+            color: black;
+            font-size: 16px; }
+      .home-banner .home-banner__item .home-banner__bg:hover .home-banner__content {
+        clip-path: inset(0 0 0 0);
+        -webkit-clip-path: inset(0 0 0 0); 
+}
+@media (min-width: 992px){
+    .home-banner .col-lg-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+

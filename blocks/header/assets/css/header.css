@@ -24,7 +24,7 @@
     background: #000;
     color: #fff;
     padding: 10px 0;
-    font-size: 13px;
+    font-size: 14px;
     font-style: italic;
 }
 .header-main .banner_top_sl {
@@ -155,7 +155,7 @@
     align-items: center;
 }
 .cart_search {
-    padding-left: 216px;
+    padding-left: 212px;
 }
 .header-desktop-search {
     padding-right: 10px;

@@ -3,7 +3,7 @@
     <div class="container text-center">
         <div class="title_sale_top">
             <h2 class="section-title">
-                FLASHSALE
+               <span>FLASHSALE</span>
             </h2>
             <p class="section-desc">
                 Giá tốt mỗi ngày - Deal tốt siêu rẻ
@@ -29,8 +29,5 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        
     </div>
 </div>
