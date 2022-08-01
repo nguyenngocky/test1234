@@ -128,7 +128,7 @@
 }
 
 .header-logo {
-    flex: 0 0 10%;
+    flex: 0 0 20%;
     text-align: center;
     padding: 0 10px;
 }
@@ -141,7 +141,7 @@
     font-size: 12px;
     position: absolute;
     bottom: 23px;
-    right: -3px;
+    right: 11px;
     width: 18px;
     height: 18px;
     background: #000;
@@ -150,12 +150,8 @@
     line-height: 18px;
     border-radius: 100%;
 }
-.menu2 {
-    display: flex;
-    align-items: center;
-}
 .cart_search {
-    padding-left: 212px;
+    padding-left: 161px;
 }
 .header-desktop-search {
     padding-right: 10px;

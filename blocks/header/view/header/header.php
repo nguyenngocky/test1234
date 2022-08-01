@@ -78,9 +78,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="header-menu menu-desktop">
-                        <div class="menu2">
-                            <div class="header-navbar-menu">
+                    <div class="header-menu menu-desktop flex align-items-center justify-content-between">
+                     
+                            <div class="header-navbar-menu d-block">
                                 <div class="navbar-mainmenu">
                                     <div id="nav">
                                         <nav class="main-nav">
@@ -122,7 +122,7 @@
 									</span>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

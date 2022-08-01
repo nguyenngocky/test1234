@@ -19,6 +19,7 @@
     include "banner_home_top/view/banner_home_top/banner_home_client.php";
     include "banner_home_top/view/banner_home_top/banner_home_policy.php";
     include "banner_home_top/view/banner_home_top/banner_home_about.php";
+    include "home_product_mini/view/home_product_mini/home_product_mini.php";
     ?>
 
 </body>

@@ -235,16 +235,28 @@
 body {
     font-size: 16px;
     line-height: 1.4;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Infant", serif;
     color: #000000;
     position: relative;
 }
 .text-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .header_wrapper {
     width: 100%;
+}
+.row-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 .flex {
     display: flex !important;
@@ -260,10 +272,16 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
 }
+.d-block {
+  display: block!important;
+}
 
 .container {
     max-width: 1300px;
-    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .clearfix::after {
     display: block;
@@ -282,3 +300,4 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", serif;
   color: #000000;
 }
+

@@ -1,7 +1,47 @@
-.banner_home_client {
+.banner_home_policy {
   position: relative;
   display: inline-block;
   width: 100%;
   margin-bottom: 50px;
   margin-top: 50px;
+}
+.banner_home_policy .inner {
+  width: 80%;
+  margin: 0 auto;
+}
+.banner_home_policy .policy_item {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.banner_home_policy .policy-item {
+  /* padding: 0 20px; */
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.banner_home_policy .policy-icon {
+  margin-right: 20px;
+  width: 50px;
+}
+
+.banner_home_policy  .policy-desc {
+  text-align: left;
+  font-size: 18px;
+}
+
+.banner_home_policy  .policy-desc .title {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.banner_home_policy  .policy-desc .desc {
+  font-size: 16px;
 }
