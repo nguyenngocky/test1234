@@ -20,6 +20,10 @@
     include "banner_home_top/view/banner_home_top/banner_home_policy.php";
     include "banner_home_top/view/banner_home_top/banner_home_about.php";
     include "home_product_mini/view/home_product_mini/home_product_mini.php";
+    include "home_value/view/home_value/home_value.php";
+    include "home_articles/view/home_articles/home_articles.php";
+    include "home_subscribe/view/home_subscribe/home_subscribe.php";
+    include "home_instagram/view/home_instagram/home_instagram.php";
     ?>
 
 </body>

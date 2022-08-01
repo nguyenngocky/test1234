@@ -1,0 +1,51 @@
+.home_subscribe {
+    padding: 150px 0;
+    position: relative;
+    background-color: #feeae7;
+    background-image: url(//theme.hstatic.net/200000384051/1000742014/14/home_subscribe_bg.png?v=1604);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 50px;
+}
+.home_subscribe .title-subscribe {
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.home_subscribe .footer-newsletter-form form {
+    position: relative; 
+}
+.home_subscribe .footer-newsletter-form form input {
+    width: 620px;
+    height: 52px;
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    font-style: italic;
+    padding: 0 20px;
+    line-height: 52px; 
+}
+
+.home_subscribe .footer-newsletter-form form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    background: #000;
+    color: #fff;
+    height: 52px;
+    padding: 0 20px;
+    font-family: "Montserrat", serif;
+    letter-spacing: 3px;
+    font-size: 12px;
+    box-shadow: none;
+    line-height: 52px;
+    text-transform: uppercase;
+    border: none; 
+}
+.home_subscribe .form-email {
+    margin-left: 42px;
+}

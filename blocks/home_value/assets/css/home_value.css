@@ -1,0 +1,31 @@
+.home-values {
+    padding: 100px 0;
+    position: relative;
+    background-color: #feeae7;
+}
+.home-values .block-home-value {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 1024px){
+
+    .home-values .block-home-value {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+.block-home-value .values-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.block-home-value .values-icon {
+    margin-bottom: 20px;
+}
+.values-item .values-desc .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
