@@ -1,0 +1,90 @@
+.footer {
+    padding: 0;
+    background: #000000;
+    color: #ffffff;
+}
+.footer .footer_top {
+    padding: 60px 0 20px;
+    box-shadow: 0 -1px 5px rgb(0 0 0 / 4%);
+    margin-top: -7px;
+}
+.footer .logo_footer {
+    margin-bottom: 20px;
+}
+.footer .footer-title {
+    position: relative;
+    padding: 0px;
+    margin: 0 0 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #ffffff;
+}
+.footer .footer-menu li a {
+    position: relative;
+    line-height: 25px;
+}
+ul.payment-list {
+    margin: 0 -10px;
+}
+ul.payment-list li{
+    padding: 0 10px;
+}
+.footer .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer .mb-mt-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer .footer-content {
+    font-style: italic;
+}
+ul.payment-list {
+    margin: 0 -10px;
+}
+.footer .footer_desc {
+    margin-top: 13px;
+}
+.footer .footer-social {
+    margin-top: 10px;
+}
+.footer .ft {
+    width: 100%;
+}
+.footer .footer-contact {
+    margin-bottom: 30px; 
+}
+.footer a, .footer p {
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    padding: 4px 0;
+}
+.footer .footer-contact p {
+    display: flex;
+}
+.footer .footer_bottom {
+    padding: 14px 0;
+    background: #000;
+    border-top: 1px solid #f1f1f1;
+}
+.footer .footer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.footer .footer_bottom p {
+    margin: 0;
+    font-size: 12px;
+    padding: 0;
+    color: #fff;
+}

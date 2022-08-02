@@ -24,6 +24,7 @@
     include "home_articles/view/home_articles/home_articles.php";
     include "home_subscribe/view/home_subscribe/home_subscribe.php";
     include "home_instagram/view/home_instagram/home_instagram.php";
+    include "footer/view/footer/footer.php";
     ?>
 
 </body>
